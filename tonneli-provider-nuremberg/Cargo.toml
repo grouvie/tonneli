@@ -1,0 +1,17 @@
+[package]
+name = "tonneli-provider-nuremberg"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+readme.workspace = true
+description = "Tonneli provider for Nuremberg waste collection schedules."
+
+[dependencies]
+async-trait = { workspace = true }
+chrono = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true }
+tonneli-core = { workspace = true }
+
+[lints]
+workspace = true

@@ -1,0 +1,17 @@
+[package]
+name = "tonneli-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+readme.workspace = true
+description = "Core data models, plugin registry, and service layer for Tonneli."
+
+[dependencies]
+async-trait = { workspace = true }
+chrono = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+
+[lints]
+workspace = true
